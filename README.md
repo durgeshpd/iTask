@@ -4,14 +4,6 @@ iTask is a modern and minimal task management system that allows users to create
 
 ---
 
-## 🔗 Live Project
-
-➡️ [Visit iTask](http://51.21.190.33/itask/)
-
-This will take you directly to the login page of the deployed iTask platform.
-
----
-
 ## 🚀 Features
 
 - ✅ User authentication with JWT
