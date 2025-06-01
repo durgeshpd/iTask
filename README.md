@@ -41,13 +41,13 @@ iTask/
 1. Clone the Repo
 
 ```bash
-git clone <your-repo-url>
-cd iTask
+~ git clone https://github.com/durgeshpd/iTask.git
+~ cd iTask
 
 2. Backend Setup (iTask-backend)
 
-cd iTask-backend
-npm install
+~ cd iTask-backend
+~ npm install
 
 Create a .env file:
 
@@ -56,14 +56,12 @@ PORT=3000
 JWT_SECRET=your_jwt_secret
 
 Start the server:
-
-npm start
+~ npm start
 
 3. Frontend Setup (iTask-frontend)
-
-cd ../iTask-frontend
-npm install
-npm run dev
+~ cd ../iTask-frontend
+~ npm install
+~ npm run dev
 
 This will start the React app on http://localhost:5173 (or similar).
 
