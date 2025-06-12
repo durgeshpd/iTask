@@ -28,12 +28,12 @@ iTask is a modern and minimal task management system that allows users to create
 
 ## 📁 Project Structure
 
+```css
 iTask/
 ├── iTask-backend/ # Node.js + Express backend
 ├── iTask-frontend/ # React + Vite frontend
 └── README.md # Project overview
-
-
+```
 ---
 
 ## ⚙️ Getting Started
@@ -41,13 +41,13 @@ iTask/
 1. Clone the Repo
 
 ```bash
-~ git clone https://github.com/durgeshpd/iTask.git
-~ cd iTask
+git clone https://github.com/durgeshpd/iTask.git
+cd iTask
 
 2. Backend Setup (iTask-backend)
 
-~ cd iTask-backend
-~ npm install
+cd iTask-backend
+npm install
 
 Create a .env file:
 
@@ -56,12 +56,12 @@ PORT=3000
 JWT_SECRET=your_jwt_secret
 
 Start the server:
-~ npm start
+npm start
 
 3. Frontend Setup (iTask-frontend)
-~ cd ../iTask-frontend
-~ npm install
-~ npm run dev
+cd ../iTask-frontend
+npm install
+npm run dev
 
 This will start the React app on http://localhost:5173 (or similar).
 
@@ -69,6 +69,7 @@ This will start the React app on http://localhost:5173 (or similar).
 
 
 📬 Contact
+
 Feel free to open an issue or submit a pull request if you have ideas or improvements.
 
 Built with ❤️ using Node.js, React and MongoDB
